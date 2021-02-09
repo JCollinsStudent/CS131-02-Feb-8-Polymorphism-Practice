@@ -9,10 +9,10 @@ public class Square extends Rectangle{
 	}
 	
 	protected void calculateArea() {
-		super.area = this.side * this.side;
+		area = this.side * this.side;
 	}
 	
 	double getArea() {
-		return super.area;
+		return area;
 	}
 }

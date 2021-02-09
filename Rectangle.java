@@ -12,10 +12,10 @@ public class Rectangle extends Shape{
 	}
 	
 	protected void calculateArea() {
-		super.area = this.length * this.width;
+		area = this.length * this.width;
 	}
 	
 	double getArea() {
-		return super.area;
+		return area;
 	}
 }
